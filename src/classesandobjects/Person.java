@@ -4,12 +4,17 @@
  */
 package classesandobjects;
 
+import shapes.Triangle;
+
 /**
  *
  * @author achap
  */
-public class Triangle {
-    int side1;
-    int side2;
-    int side3;
+public class Person {
+    int age;
+    double height;
+    String name;
+    boolean isProgrammer;
+    Triangle favTriangle;
+    
 }
