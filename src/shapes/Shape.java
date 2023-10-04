@@ -8,6 +8,25 @@ package shapes;
  *
  * @author achap
  */
-public class Shape {
+public abstract class Shape {
+    private boolean isFilled = true;
+    private String colour = "purple";
+
+    public boolean isIsFilled() {
+        return isFilled;
+    }
+
+    public void setIsFilled(boolean isFilled) {
+        this.isFilled = isFilled;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+    
     
 }

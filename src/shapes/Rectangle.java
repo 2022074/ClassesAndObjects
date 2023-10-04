@@ -8,7 +8,7 @@ package shapes;
  *
  * @author achap
  */
-public class Rectangle {
+public class Rectangle extends Shape{
     private String colour;
     private Boolean isFilled;
     private double height = 5.0;

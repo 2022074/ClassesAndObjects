@@ -51,6 +51,9 @@ public class ClassesAndObjects {
         rect1.getArea();
         System.out.println(rect1.getArea());
         
+        System.out.println(tri6.getColour());
+        
+        
     }
     
 }
