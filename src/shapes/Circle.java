@@ -9,6 +9,16 @@ package shapes;
  * @author achap
  */
 public class Circle extends Shape{
-    double radius;
+    private double radius = 12.5;
+    private Boolean isFilled;
+    private String colour;
+
+    public double getRadius() {
+        return radius;
+    }
+    
+    public double getArea() {
+        return radius * radius * 3.1416;
+    }
     
 }

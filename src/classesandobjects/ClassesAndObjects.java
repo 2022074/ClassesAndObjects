@@ -4,6 +4,7 @@
  */
 package classesandobjects;
 
+import shapes.Circle;
 import shapes.Rectangle;
 import shapes.Triangle;
 
@@ -53,7 +54,9 @@ public class ClassesAndObjects {
         
         System.out.println(tri6.getColour());
         
-        
+        Circle circ1 = new Circle();
+        circ1.getArea();
+        System.out.println(circ1.getArea());
     }
     
 }
