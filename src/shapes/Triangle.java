@@ -41,5 +41,23 @@ public class Triangle extends Shape{
         this.side3 = side3;
     }
     
+    @Override
+    public double getArea() {
+        return 0.5 * side1 * side2;
+    }
     
+    @Override
+    public void setColour(String colour) {
+        if (colour.equals("Blue")) {
+            this.colour = "Red";
+            
+        } else {
+            this.colour = colour;
+        }
+    }
+    
+    @Override
+    public String toString() {
+        return "Hello! I am a Triangle with the colour " + colour;
+    }
 }

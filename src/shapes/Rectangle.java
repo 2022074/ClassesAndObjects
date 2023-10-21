@@ -13,6 +13,10 @@ public class Rectangle extends Shape{
     private Boolean isFilled;
     private double height = 5.0;
     private double width = 6.2;
+    
+    public Rectangle(boolean isFilled, String colour) {
+        super (isFilled, colour);
+    }
 
     public double getHeight() {
         return height;
